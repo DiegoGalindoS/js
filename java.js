@@ -55,7 +55,7 @@ Persona.prototype.saludar = function() {
 let juan = new Persona("Juan", 30);
 console.log(juan.saludar()); // Salida: Hola, soy Juan
 
-function Animal(nombre, especie) {
+function Animal(nombre, especie) { //dfgalindo 
     this.nombre = nombre;
     this.especie = especie;
 }
@@ -64,9 +64,9 @@ Animal.prototype.describir = function() {
     return "Este es un " + this.especie + " llamado " + this.nombre;
 };
 
-// Crear una nueva instancia de Animal
-let leon = new Animal("Simba", "león");
-console.log(leon.describir()); // Salida: Este es un león llamado Simba
+// Y ahora creo una nueva instancia de Animal
+let leon = new Animal("Scar", "león");
+console.log(leon.describir()); // Resultado: Este es un león llamado Scar
 
 function Libro(titulo, autor, año) {
     this.titulo = titulo;
